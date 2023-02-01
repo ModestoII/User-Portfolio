@@ -1,0 +1,162 @@
+:root{
+    font-family: "poppins",Arial;
+    background-color: #4682B4;
+    color: whitesmoke;
+}
+
+.cabeçalho{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    margin-left: 30px;
+}
+
+.cabeçalho-div2{
+    margin-left: 30px;
+}
+
+.corpo-div1{
+    display: flex;
+    justify-content: space-around;;
+}
+
+.corpo-div2{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.js{
+    width: 100px;
+    height: 100px;
+}
+
+.css{
+    width: 100px;
+    height: 100px;
+}
+
+.html{
+    width: 100px;
+    height: 100px;
+}
+
+.lattes{
+    width: 100px;
+    height: 100px;
+}
+
+.github{
+    width: 100px;
+    height: 100px;
+}
+
+.linkedin{
+    width: 100px;
+    height: 100px;
+}
+
+.mail{
+    width: 100px;
+    height: 100px;
+}
+
+.telefone{
+    width: 95px;
+    height: 95px;
+}
+
+.telegram{
+    width: 100px;
+    height: 100px;
+}
+
+.user{
+    width: 300px;
+    height: 300px;
+}
+
+.row {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0 (50, 50, 50, 0.22);
+    padding: 20px;
+    margin: 20px;
+    width: 400px;
+    transition: all 0.3s ease-out;
+}
+  
+.card:hover {
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+  
+.card p {
+    color: #a3a5ae;
+    font-size: 16px;
+}
+
+.modal {
+    position: fixed;
+    padding: 0;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0,0,0,0.5);
+    transform: scale(1.1);
+    opacity: 0;
+    visibility: hidden;
+    transition: visibility 0.25s ease-in-out, transform 0.25s ease-in-out, opacity 0.25s ease-in-out;
+}
+  
+.modal-content {
+    background-color: #5F9EA0;
+    padding: 16px 24px;
+    width: 384px;
+    border-radius: 0.5rem;
+}
+
+span {
+    float: right;
+    width: 24px;
+    cursor: pointer;
+    background-color: lightgrey;
+    text-align: center;
+    line-height: 24px;
+}
+  
+span:hover {
+    background-color: darkgray;
+}
+  
+.show-modal {
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1.0);
+}
+
+.one {
+    border-left: 3px solid #3bb54a;
+}
+  
+.two {
+    border-left: 3px solid #4895ff;
+}
+  
+.three {
+    border-left: 3px solid #b3404a;
+}
+
+.ufra{
+    width: 170px;
+    height: 70px;
+}

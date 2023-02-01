@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio - User</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="app.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+
+<header class="cabeçalho">
+    <div class="cabeçalho-div">
+        <img class="ufra" src="ufra.png">
+    </div>
+
+    <div class="cabeçalho-div2">
+        <h1>Portfólio User</h1>
+    </div>
+</header>
+
+<hr class="espaço">
+
+<body class="corpo">
+
+    <div class="corpo-div1">
+        <div>
+            <h1>Apresentação</h1>
+            <img class="user" src="user.png">
+            <p>
+                Sou <strong>User</strong>, atual discente do curso de Licenciatura em Computação <br>
+                na <strong>Universidade Federal Rural da Amazônia(UFRA).<br></strong>
+            </p>
+        </div>
+
+        <div>
+            <h1>Objetivo</h1>
+        </div>
+    </div>
+
+    <div class="corpo-div2">
+        <div class="row" onclick="showModal()">
+            <div class="card one">
+                <h1>Desenvolvedor Full Stack</h1>
+                <img class="html" src="html5.png">
+                <img class="css" src="css3.png">
+                <img class="js" src="js.png">
+            </div>
+        </div>
+
+        <div class="row" onclick="showModal2()">
+            <div class="card two">
+                <h1>Informações</h1>
+                <img class="linkedin" src="linkedin.png">
+                <img class="github" src="github.png">
+                <img class="lattes" src="lattes.png">
+            </div>
+        </div>
+
+        <div class="row" onclick="showModal3()">
+            <div class="card three">
+                <h1>Contatos</h1>
+                <img class="mail" src="gmail.png">
+                <img class="telefone" src="telefone.png">
+                <img class="telegram" src="telegram.png">
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" id="modal">
+        <div class="modal-content">
+          <span onclick="hideModal()">&times;</span>
+          <h1>Linguagens</h1>
+          <p><a href="https://www.w3.org/standards/webdesign/htmlcss.html" target="_blank">  HTML5</a></p>
+          <p><a href="https://www.w3.org/standards/webdesign/htmlcss.html" target="_blank"> CSS3</a></p>
+          <p><a href="https://www.javascript.com/" target="_blank"> JavaScript</a></p>
+        </div>
+      </div>
+    
+      <div class="modal" id="modal2">
+        <div class="modal-content">
+          <span onclick="hideModal2()">&times;</span>
+          <h1>Informações</h1>
+          <p><a href="https://linkedin.com" target="_blank"> LinkedIn</a></p>
+          <p><a href="https://github.com/" target="_blank"> GitHub</a></p>
+          <p><a href="https://lattes.cnpq.br/" target="_blank"> Lattes</a></p>
+        </div>
+      </div>
+    
+      <div class="modal" id="modal3">
+        <div class="modal-content">
+          <span onclick="hideModal3()">&times;</span>
+          <h1>Contatos</h1>
+          <p><a href="https://gmail.com" target="_blank">user@gmail.com</a></p>
+          <p><a href="" target="_blank">(00)94444-8888</a></p>
+          <p><a href="https://web.telegram.org/" target="_blank">Telegram</a></p>
+        </div>
+      </div>
+
+<hr>
+
+    <div>
+        <h2>Projetos</h2>
+    </div>
+</body>
+
+<footer class="rodape">
+    <hr class="espaço-final">
+    <h1>Developer: João Modesto From: Universidade Federal Rural da Amazônia</h1>
+</footer>
+
+</html>
