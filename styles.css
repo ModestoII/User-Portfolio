@@ -166,3 +166,34 @@ span:hover {
     width: 170px;
     height: 70px;
 }
+
+.rodape {
+    font-size: 11px;
+}
+
+@media (max-width: 935px) {
+
+    body {
+        width: max-content;
+        height: auto;
+    }
+
+    .corpo-div1 {
+        width: 100%;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .corpo-div2 {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .modal {
+        margin: auto;
+        align-items: center;
+    }
+
+}
