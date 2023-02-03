@@ -32,6 +32,16 @@ body {
     flex-direction: row;
 }
 
+.tittle1{
+    padding-left: 150px;
+}
+
+.objetivo{
+    width: 300px;
+    height: 200px;
+    padding-left: 60px;
+}
+
 .js{
     width: 100px;
     height: 100px;
