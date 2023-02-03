@@ -32,8 +32,16 @@ body {
     flex-direction: row;
 }
 
+.subdiv2{
+    padding: 70px;
+}
+
 .tittle1{
     padding-left: 150px;
+}
+
+.tittle2{
+    padding-left: 250px;
 }
 
 .objetivo{
