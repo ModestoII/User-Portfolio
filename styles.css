@@ -32,8 +32,14 @@ body {
     flex-direction: row;
 }
 
+.corpo-div3{
+    display: flex;
+    justify-content: left;
+    flex-direction: row;
+}
+
 .subdiv2{
-    padding: 70px;
+    padding: 5px;
 }
 
 .tittle1{
@@ -45,8 +51,8 @@ body {
 }
 
 .objetivo{
-    width: 300px;
-    height: 200px;
+    width: 350px;
+    height: 250px;
     padding-left: 60px;
 }
 
@@ -61,6 +67,11 @@ body {
 }
 
 .html{
+    width: 100px;
+    height: 100px;
+}
+
+.python{
     width: 100px;
     height: 100px;
 }
@@ -104,7 +115,12 @@ body {
     display: inline-flex;
     align-items: center;
     justify-content: center;
+}
 
+.row2 {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .card {
@@ -180,6 +196,14 @@ span:hover {
     border-left: 3px solid #b3404a;
 }
 
+.for {
+    border-left: 3px solid black;
+}
+
+.five {
+    border-left: 3px solid gray;
+}
+
 .ufra{
     width: 170px;
     height: 70px;
@@ -187,6 +211,10 @@ span:hover {
 
 .rodape {
     font-size: 11px;
+}
+
+.espaço-2{
+    margin-top: 40px;
 }
 
 @media (max-width: 935px) {
@@ -204,6 +232,12 @@ span:hover {
     }
 
     .corpo-div2 {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .corpo-div3 {
         flex-direction: column;
         justify-content: flex-start;
         align-items: flex-start;
