@@ -23,6 +23,11 @@ function showModal() {
     element.classList.add("show-modal");
   }
 
+  function showModal6() {
+    var element = document.getElementById("modal6")
+    element.classList.add("show-modal");
+  }
+
   function hideModal() {
     var element = document.getElementById("modal");
     element.classList.remove("show-modal");
@@ -45,5 +50,10 @@ function showModal() {
 
   function hideModal5() {
     var element = document.getElementById("modal5");
+    element.classList.remove("show-modal");
+  }
+
+  function hideModal6() {
+    var element = document.getElementById("modal6");
     element.classList.remove("show-modal");
   }

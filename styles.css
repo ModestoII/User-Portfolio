@@ -86,6 +86,11 @@ body {
     height: 100px;
 }
 
+.redhat{
+    width: 100px;
+    height: 100px;
+}
+
 .linkedin{
     width: 100px;
     height: 100px;
@@ -202,6 +207,10 @@ span:hover {
 
 .five {
     border-left: 3px solid gray;
+}
+
+.six {
+    border-left: 3px solid #ffa500;
 }
 
 .ufra{
